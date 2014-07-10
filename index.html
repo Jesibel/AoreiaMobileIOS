@@ -73,6 +73,13 @@
 				}
 				var store = JSON.parse(event.data);
 				alert (store);
+				if ( event.data === "store" && e.origin === iframe.src.split("/").splice(0, 3).join("/")) {
+
+					// send the child a message.
+					_window.postMessage("#storeHtml", iframe.src)
+					$.mobile.changePage("#storeHtml");
+				}
+				
 				if (store && store.msg=='store' ) {
 					alert ('aquiii');
 					$.mobile.changePage("#storeHtml");
