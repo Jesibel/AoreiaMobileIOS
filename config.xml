@@ -99,6 +99,8 @@
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
   </gap:config-file>
+  
+  <gap:plugin name="com.phonegap.plugins.childbrowser" version="5.0.0" />
 
   <access origin="http://aoreiamobile.aoreia.com" />       
   <access origin="http://aoreiamobile.aoreia.com" subdomains="true" /> 
