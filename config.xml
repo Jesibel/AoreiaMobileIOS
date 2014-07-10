@@ -37,7 +37,7 @@
   
  
   <preference name="stay-in-webview" value="true" />
- 
+  <preference name="OpenAllWhitelistURLsInWebView" value="true" />
   <!-- Define app icon for each platform. -->
   <!--icon src="resources/image/icon.png" /-->
   <icon src="resources/image/logo-Aoreia-120.png"/>
@@ -100,8 +100,7 @@
     </array>
   </gap:config-file>
   
-    
-  
+  <gap:plugin name="com.phonegap.plugins.childbrowser" version="5.0.0" />
 
   <access origin="http://aoreiamobile.aoreia.com" />       
   <access origin="http://aoreiamobile.aoreia.com" subdomains="true" /> 
