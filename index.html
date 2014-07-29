@@ -67,7 +67,9 @@
 					
 				}
 				var pmsg = JSON.parse(event.data);
+				alert(pmsg);
 				if (pmsg && pmsg.msg=='pdf' ) {
+					alert('dentro if');
 					window.open(pmsg.url, '_system', 'location=yes');
 					console.log('abriendo pdf..');
 				}
