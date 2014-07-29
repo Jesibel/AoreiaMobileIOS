@@ -38,6 +38,8 @@
  
   <preference name="stay-in-webview" value="true" />
   
+  <preference name="DisallowOverscroll" value="true"/>
+  
   <!-- Define app icon for each platform. -->
   <!--icon src="resources/image/icon.png" /-->
   <icon src="resources/image/logo-Aoreia-120.png"/>
