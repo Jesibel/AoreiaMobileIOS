@@ -10,11 +10,11 @@
   <name>Aoreia Mobile</name>
 
   <description>
-  An example for phonegap build docs. 
+  Aoreia Mobile for IOS. 
   </description> 
 
   <author href="http://aoreiamobile.aoreia.com" email="jesibelaranguren@gmail.com">
-  Hardeep Shoker 
+  Jesibel Aranguren 
   </author>
   
    <feature name="http://api.phonegap.com/1.0/network"/>
@@ -37,7 +37,7 @@
   
  
   <preference name="stay-in-webview" value="true" />
-  <preference name="OpenAllWhitelistURLsInWebView" value="true" />
+  
   <!-- Define app icon for each platform. -->
   <!--icon src="resources/image/icon.png" /-->
   <icon src="resources/image/logo-Aoreia-120.png"/>
@@ -77,9 +77,6 @@
   <gap:splash src="resources/image/logo_aoreia_1024-2.png"   gap:platform="ios"     width="1024" height="768" />
   
   
-  
-
-
   <gap:plugin name="org.apache.cordova.media" />	
 
   <gap:plugin name="com.boyvanderlaak.cordova.plugin.orientationchanger" version="0.1.1" />
