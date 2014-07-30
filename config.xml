@@ -79,7 +79,7 @@
   <gap:splash src="resources/image/logo_aoreia_1024-2.png"   gap:platform="ios"     width="1024" height="768" />
   
   
-  <gap:plugin name="org.apache.cordova.media" version="0.2.9" />	
+  <gap:plugin name="org.apache.cordova.media" version="0.2.8" />	
 
   <gap:plugin name="com.boyvanderlaak.cordova.plugin.orientationchanger" version="0.1.1" />
   
