@@ -24,7 +24,7 @@
  
   <content src="index.html" />
   
- 
+  <preference name="phonegap-version" value="3.5.0" />
 
   <!-- Preferences -->
 
