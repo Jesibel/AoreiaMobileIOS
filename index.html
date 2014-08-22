@@ -31,7 +31,7 @@
 			//setinterval("detectInternet()",2500);
 			//var id = setInterval("detectInternet()",1000);
 			//setTimeout("clearInterval("+id+")",15000);
-			//detectInternet();
+			detectInternet();
 			
 			$(document).on("pagecontainerhide", function (e, ui) {
 				if(video_play){
@@ -48,11 +48,7 @@
 				//detectInternet();
 			});
 			
-			$(document).on('show', function() {
-				//activePage = $.mobile.activePage.attr('id');
-				detectInternet();
-			});
-			
+						
 			//alert(WURFL.form_factor);
 			if (WURFL.form_factor == "Tablet") {
 				//alert('es una tablet');

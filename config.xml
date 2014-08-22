@@ -24,8 +24,7 @@
  
   <content src="index.html" />
   
-  <preference name="phonegap-version" value="3.5.0" />
-
+  
   <!-- Preferences -->
 
   <preference name="orientation" value="default" />
@@ -93,7 +92,9 @@
   
   <gap:plugin name="org.apache.cordova.splashscreen" version="0.2.7"/>
   
-    <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~ipad" overwrite="true">
+  <plugin name="NetworkStatus" value="CDVConnection" />
+  
+  <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~ipad" overwrite="true">
     <array>
       <string>UIInterfaceOrientationLandscapeLeft</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
