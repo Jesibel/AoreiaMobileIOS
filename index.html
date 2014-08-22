@@ -45,6 +45,11 @@
 			
 			$(document).on('pagebeforeshow', function() {
 				activePage = $.mobile.activePage.attr('id');
+				//detectInternet();
+			});
+			
+			$(document).on('show', function() {
+				//activePage = $.mobile.activePage.attr('id');
 				detectInternet();
 			});
 			
