@@ -26,6 +26,7 @@
 		
 		function _onDeviceReady (){	
 			
+			navigator.splashscreen.hide();
 			$.ajaxSetup({cache: false,}); //evitar cache
 			
 			//setinterval("detectInternet()",2500);
@@ -131,7 +132,7 @@
 				success: function (data) {
 					// Yor success logic 
 						alert('success bien');
-						$.mobile.changePage("#inicio");
+				
 						
 						},
 				error: function (request) {

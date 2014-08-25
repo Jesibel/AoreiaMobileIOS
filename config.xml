@@ -31,15 +31,15 @@
   <preference name="show-splash-screen-spinner" value="false" />
   <preference name="android-minSdkVersion" value="14" />       <!-- JB 4.0 -->
 
-  
-
   <preference name="SplashScreen" value="splash" />
   <preference name="SplashScreenDelay" value="1000" /> <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
   
- 
   <preference name="stay-in-webview" value="true" />
   
   <preference name="DisallowOverscroll" value="true"/>
+  
+  <preference name="ShowSplashScreenSpinner" value="false" />
+  <preference name="AutoHideSplashScreen" value="false" />
   
   <!-- Define app icon for each platform. -->
   <!--icon src="resources/image/icon.png" /-->
