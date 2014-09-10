@@ -2204,6 +2204,20 @@
         //console.log("in button");
         navigator.app.exitApp();
     }
+	function onConfirmar(button) {
+		//console.log('You selected button ' + button);
+		if(button == 1){
+			//pressed "cancel"
+			//console.log("User has cancelled");
+			//exitFromApp    
+			$.mobile.changePage("#inicio");
+		}
+		/*else if(button == 2){
+			//pressed "delete"
+			console.log("connecting");
+			detectInternet();
+		}*/
+	}
 	
 $(document).ready(function () {
 
@@ -2222,7 +2236,13 @@ $(document).ready(function () {
 		}else if(clicked == "faq"){
 			$.mobile.changePage("#faqHtml");
 		}else if(clicked == "store"){
-			$.mobile.changePage("#storeHtml");
+			//$.mobile.changePage("#storeHtml");
+			navigator.notification.confirm(
+				'AOREIA Premiun will soon be available on Itunes.',  // message
+				onConfirmar,         // callback to invoke with index of button pressed
+				'Accept',            // title
+				//'Accept'        // buttonLabels
+			);
 		}else if(clicked == "videos"){
 			$.mobile.changePage("#videosHtml");
 		}else if(clicked == "audios"){
@@ -2262,7 +2282,13 @@ $(document).ready(function () {
 		}else if(clicked == "faq"){
 			$.mobile.changePage("#faqHtml");
 		}else if(clicked == "store"){
-			$.mobile.changePage("#storeHtml");
+			//$.mobile.changePage("#storeHtml");
+			navigator.notification.confirm(
+				'AOREIA Premiun will soon be available on Itunes.',  // message
+				onConfirmar,         // callback to invoke with index of button pressed
+				'Accept',            // title
+				//'Accept'        // buttonLabels
+			);
 		}else if(clicked == "videos"){
 			$.mobile.changePage("#videosHtml");
 		}else if(clicked == "audios"){
